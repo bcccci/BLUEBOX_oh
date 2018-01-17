@@ -1,3 +1,7 @@
+/*
+问题
+1.nav竖线  2.搜索按钮  3.点击搜索search不消失
+*/
 /*css重置开始---------------------------*/
 *{
     margin: 0;
@@ -15,13 +19,108 @@ li{
     list-style: none}
 /*css重置结束---------------------------*/
 /*wrappler设置开始----------------------*/
-#wrappler{
+.wrappler{
     width: 1003px;
     height: 100%;
     margin: 0 auto;
-    background: #999;
+    /*background: #999;*/
 }
 /*wrappler设置结束----------------------*/
 /*header开始----------------------------*/
-
+#header{
+    height: 120px;
+}
+#header div{
+    float: left;
+}
+#header .logo{
+    margin: 35px 0;
+}
+#header ul li{
+    width: 98px;
+    height: 30px;
+    float: left;
+}
+#header li a{
+    padding-right: 25px;
+    border-right: 1px solid black;
+    color: #626262;
+}
+#header li a:hover{
+    padding-right: 25px;
+    border-right: 1px solid black;
+    color:#4D4DB3;
+}
+#header .nav{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#header .delete{
+    padding:0;
+    border: 0;
+}
+#header input[type=text]{
+    width: 100px;
+    height: 25px;
+    margin-top: 45px;
+    margin-left: 40px;
+    text-indent: 10px;
+    outline: none;
+    background: #F0F0F0;
+    border: 1px solid beige;
+}
 /*header结束----------------------------*/
+/*content开始---------------------------*/
+#content{
+    width: 100%;
+    height: 460px;
+    background: #31333e;
+}
+#content-bg{
+    width: 1003px;
+    height: 460px;
+    background: url("../img/photo.png") no-repeat center;
+    position: absolute;
+}
+#both-left{
+    position: relative;
+    top:50%;
+}
+#both-right{
+    float: right;
+    position: relative;
+    top:40%;
+}
+/*content结束---------------------------*/
+
+/*more开始------------------------------*/
+#more-big {
+    width: 1003px;
+    height: 492px;
+}
+#more-more h2{
+    width: 290px;
+    height: 40px;
+    margin-top: 90px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+#more-more img{
+    margin: 20px;
+    margin-left: 90px;
+}
+#more-more p{
+    width: 290px;
+    height: 126px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 28px;
+    color: #2a2e39
+}
+#more-more a{
+    padding-top: 50px;
+    padding-left: 100px;
+    color: #00aeff;
+}
+/*more结束------------------------------*/
+
