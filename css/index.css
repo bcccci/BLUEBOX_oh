@@ -98,7 +98,11 @@ li{
     width: 1003px;
     height: 492px;
 }
-#more-more h2{
+#more-more{
+    width: 334px;
+    float: left;
+}
+#more-more h1{
     width: 290px;
     height: 40px;
     margin-top: 90px;
