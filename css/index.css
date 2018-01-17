@@ -1,0 +1,27 @@
+/*css重置开始---------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    bottom: 0;}
+li{
+    list-style: none}
+/*css重置结束---------------------------*/
+/*wrappler设置开始----------------------*/
+#wrappler{
+    width: 1003px;
+    height: 100%;
+    margin: 0 auto;
+    background: #999;
+}
+/*wrappler设置结束----------------------*/
+/*header开始----------------------------*/
+
+/*header结束----------------------------*/
