@@ -1,0 +1,104 @@
+/*css重置开始---------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    bottom: 0;}
+li{
+    list-style: none}
+/*css重置结束---------------------------*/
+/*wrapper设置开始----------------------*/
+.wrapper{
+    width: 1004px;
+    height: 100%;
+    margin: 0 auto;
+    /*background: #999;*/
+}
+/*wrapper设置结束----------------------*/
+/*header开始----------------------------*/
+#header{
+    height: 120px;
+}
+#header div{
+    float: left;
+}
+#header .logo{
+    margin: 35px 0;
+}
+#header ul li{
+    width: 98px;
+    height: 30px;
+    float: left;
+}
+#header li a{
+    padding-right: 25px;
+    border-right: 1px solid #999;
+    color: #626262;
+}
+#header li a:hover{
+    padding-right: 25px;
+    border-right: 1px solid #999;
+    color:#4D4DB3;
+}
+#header .nav{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#header .delete{
+    padding:0;
+    border: 0;
+}
+#header input[type=text]{
+    width: 100px;
+    height: 25px;
+    margin-top: 45px;
+    margin-left: 40px;
+    text-indent: 10px;
+    outline: none;
+    background: #F0F0F0;
+    border: 1px solid beige;
+}
+/*header结束----------------------------*/
+/*footer开始 ---------------------------*/
+#footer{
+    height: 176px;
+    background: #31333e;
+}
+#footer .footer-text{
+    width: 500px;
+    height: 50px;
+}
+#footer li{
+    float: left;
+}
+#footer li{
+    margin-top: 40px;
+    margin-left: -10px;
+}
+#footer .delete-two{
+    border: 0;
+}
+#footer li a{
+    width: 80px;
+    height: 20px;
+    font-size: 15px;
+    color: #e2e7ed;
+    padding: 0 15px;
+    border-right: 2px solid #e2e7ed;
+}
+#footer p{
+    color: #e2e7ed;
+    font-size: 15px;
+}
+#footer .p-two{
+    margin-top: 40px;
+    font-size: 10px;
+}
+/*footer结束 ---------------------------*/
